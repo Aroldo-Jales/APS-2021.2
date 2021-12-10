@@ -15619,8 +15619,28 @@
   "RootNamespace": "Projeto",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\SaleRecord\\Delete.cshtml",
+      "TargetPath": "Views\\SaleRecord\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\SaleRecord\\Details.cshtml",
+      "TargetPath": "Views\\SaleRecord\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Seller\\Delete.cshtml",
+      "TargetPath": "Views\\Seller\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Department\\Edit.cshtml",
+      "TargetPath": "Views\\Department\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\SaleRecord\\Index.cshtml",
+      "TargetPath": "Views\\SaleRecord\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15629,8 +15649,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Seller\\Edit.cshtml",
+      "TargetPath": "Views\\Seller\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Department\\Details.cshtml",
+      "TargetPath": "Views\\Department\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15669,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Department\\Create.cshtml",
+      "TargetPath": "Views\\Department\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Department\\Index.cshtml",
+      "TargetPath": "Views\\Department\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Department\\Delete.cshtml",
+      "TargetPath": "Views\\Department\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\SaleRecord\\Edit.cshtml",
+      "TargetPath": "Views\\SaleRecord\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,8 +15699,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Seller\\Index.cshtml",
+      "TargetPath": "Views\\Seller\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Seller\\Details.cshtml",
+      "TargetPath": "Views\\Seller\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\Seller\\Create.cshtml",
+      "TargetPath": "Views\\Seller\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\arold\\OneDrive\\Documents\\Codes\\Vscode\\IFPI\\APS\\Projeto\\Views\\SaleRecord\\Create.cshtml",
+      "TargetPath": "Views\\SaleRecord\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

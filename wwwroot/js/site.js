@@ -2,3 +2,9 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+var element = document.getElementById('back-link');
+element.setAttribute('href', document.referrer);
+element.onclick = function() {
+    history.back();
+    return false;
+}

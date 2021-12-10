@@ -29,17 +29,16 @@ namespace Projeto
 
             services.AddDbContext<Models.MyDbContext>(options =>
                 {
-                    string connectionString = Configuration.GetConnectionString("MyDbContext");
+                    string connectionString = "server=localhost;port=3306;database=appcsharp;user=csharp2;password=;";
                     ServerVersion mySqlVersion = ServerVersion.AutoDetect(connectionString);
 
                     if (Environment.IsDevelopment())
                     {
                         options.UseMySql(connectionString, mySqlVersion);
-                        //options.UseMySql(connectionString, null);
                     }
                     else
                     {
-                        //options.UseSqlServer(connectionString);
+                        options.UseSqlServer(connectionString);
                     }
                 }
             );
@@ -66,7 +65,7 @@ namespace Projeto
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Department}/{action=Index}/{id?}");
             });
         }
     }

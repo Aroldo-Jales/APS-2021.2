@@ -1,0 +1,53 @@
+@model IEnumerable<Projeto.Models.Department>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Departamentos</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Criar Novo</a>
+<table class="table">
+</p>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                Vendedores
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                <a class="btn btn-outline-primary" href="seller?dId=@item.Id">Detalhes</a>
+            </td>
+            <td>
+                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> 
+                <a class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready( function () {
+                $('.table').DataTable( {
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
+        }
+    } );
+        });
+    </script>
+}
